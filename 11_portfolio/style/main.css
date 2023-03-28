@@ -1,0 +1,50 @@
+/* 사진 200 200 아이콘 25 25 */
+body {
+    background: url(../images/7598163.jpg)center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+main .photo {
+    width:200px; height:200px; overflow:hidden;
+    border-radius: 50%;
+    border:6px solid #fff;
+}
+main .photo img {
+    width:100%;
+}
+main h1 {
+    font-size:2rem;
+}
+main .loading {}
+main.loading .bar {
+    background: #fff;
+    content:''; width:200px; height:5px; display:inline-block; font-weight: 600;
+}
+main p {}
+main .sns {}
+/* 공통 */
+main h1,
+main p,
+main .sns {
+    padding-top:20px;
+}
+/* ------------- */
+main .sns a {padding:0 10px;}
+main .sns a img {
+    width:25px; height:25px;
+}
+main .sns a span {
+    display:none;
+}
+main .gnb {}
+main .gnb span {}
+main .gnb span:nth-child(1) {}
+main .gnb span:nth-child(2) {}
+main .gnb span:nth-child(3) {}
